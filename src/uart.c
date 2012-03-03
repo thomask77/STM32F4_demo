@@ -116,7 +116,7 @@ void uart_init(int baudrate)
 
     GPIO_Init(GPIOB, &(GPIO_InitTypeDef) {
         .GPIO_Pin = GPIO_Pin_7,
-        .GPIO_Mode = GPIO_Mode_IN,
+        .GPIO_Mode = GPIO_Mode_AF,
         .GPIO_PuPd = GPIO_PuPd_UP
     });
 
