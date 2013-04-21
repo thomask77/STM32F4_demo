@@ -1,3 +1,14 @@
+# 2012-05-01: DEPRECATED!
+
+Since version 7.1.1, FreeRTOS has native support for Cortex-M4F controllers.
+
+I'll leave my project on github for reference only. Don't use it for production.
+
+have fun,
+Thomas Kindler <mail+stm32@t-kindler.de>
+
+----
+
 FreeRTOS Cortex M4F demo
 ========================
 
@@ -48,6 +59,3 @@ TODO
     3D graphics or a small FPU sound  synthesizer would be nice!
 
   * Virtual USB COM-Port instead of USART1
-
-have fun,
-Thomas Kindler <mail+stm32@t-kindler.de>
